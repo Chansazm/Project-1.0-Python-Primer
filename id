@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Feb  3 11:49:01 2020
+
+@author: chansa
+"""
+
+class Computer:
+    pass
+
+c1 = Computer()
+print(id(c1))
+
+c2 = Computer()
+print(id(c2))

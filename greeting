@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Sep 10 17:26:45 2019
+
+@author: chansa
+"""
+def greeting():
+ print ("Hi")
+
+ name = input("Whats yoiur name?,")
+ print("It's nice to meet you,", name)
+
+ answer = input("Are you enjoying the course?")
+
+ if answer == "yes":
+    print("Thats good to hear!")
+ else:
+    print("Oh no! That makes me sad!")
+    
+
+    
+greeting()
